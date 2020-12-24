@@ -24,6 +24,7 @@ const Head = props => {
                 <meta charset="utf-8"/>
                 <title>{title}</title>
                 <meta name="description" content={description}/>
+                <link rel="shortcut icon" href="favicon.ico"/>
             </Helmet>
         </div>
     );
