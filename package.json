@@ -1,0 +1,51 @@
+{
+  "name": "home-page",
+  "private": true,
+  "description": "gatsby project for home page",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Tomoki Sato",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "lint:js": "eslint 'src/**/*.js'",
+    "lint:css": "stylelint 'src/**/*.css'",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "^2.26.1",
+    "gatsby-plugin-typography": "^2.9.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
+    "typography-theme-fairy-gates": "^0.16.19"
+  },
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-plugin-react": "^7.21.5",
+    "prettier": "2.1.2",
+    "stylelint": "^13.8.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-no-unsupported-browser-features": "^4.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/st-user/home-page.git"
+  },
+  "bugs": {
+    "url": "https://github.com/st-user/home-page/issues"
+  },
+  "homepage": "https://github.com/st-user/home-page#readme",
+  "browserslist": [
+    "last 2 versions",
+    "> 0.2%",
+    "not dead"
+  ]
+}
