@@ -28,7 +28,7 @@ const Tool = props => {
 
 Tool.propTypes = {
     url: PropTypes.string,
-    name: PropTypes.string    
+    name: PropTypes.string
 };
 
 export default function Tools() {
@@ -38,7 +38,10 @@ export default function Tools() {
             <h1>Tools</h1>
             <ul>
                 <Tool
-                    url="https://tools.ajizablg.com/color-picker/index.html"
+                    url="https://tools.ajizablg.com/employment-data-site/"
+                    name="雇用統計ダッシュボード"/>
+                <Tool
+                    url="https://tools.ajizablg.com/color-picker/"
                     name="カラーコード作成ツール"/>
             </ul>
         </Layout>
