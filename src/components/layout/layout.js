@@ -38,8 +38,8 @@ const Layout = ({ children }) => {
             </header>
             <ul className={styles.nav}>
                 <ListLink to="/">Home</ListLink>
-                <ListLink to="/blog/">Blog</ListLink>
                 <ListLink to="/tools/">Tools</ListLink>
+                <ListLink to="/demo/">Demo</ListLink>
                 <ListLink to="/about/">About</ListLink>
             </ul>
             <div className={styles.main}></div>

@@ -18,7 +18,7 @@ export default function Home() {
     return (
         <Layout>
             <Head/>
-            <h1>作成したツールやブログのサイト</h1>
+            <h1>ツールやデモのサイト</h1>
             <p>{data.site.siteMetadata.description}</p>
         </Layout>
     );

@@ -7,7 +7,7 @@
 module.exports = {
     siteMetadata: {
         title: 'プログラミングヴンチョウ',
-        description: '作成したソフトウェアツールや、プログラミングに関するブログ記事を公開するサイトです。'
+        description: '趣味と実用をかねて作成したアプリケーション(ツール)やデモを公開するサイトです。'
     },
     plugins: [
         {
