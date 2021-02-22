@@ -15,6 +15,14 @@ module.exports = {
             options: {
                 pathToConfigModule: 'src/utils/typography',
             }
+        },
+        {
+            resolve: `gatsby-plugin-google-gtag`,
+            options: {
+                trackingIds: [
+                    '<TRACKING-ID-HERE>'
+                ]
+            }
         }
     ]
 };
