@@ -10,6 +10,7 @@ const About = function ({ data }) {
         <Layout>
             <Head/>
             <h1>{post.frontmatter.title}</h1>
+            <div>(最終更新:{post.frontmatter.date})</div>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </Layout>
     );
@@ -25,7 +26,8 @@ export const query = graphql`
       markdownRemark(fields: { slug: { eq: $slug } }) {
           html
           frontmatter {
-              title
+              title,
+              date
             }
         }
     }
