@@ -7,7 +7,9 @@
 module.exports = {
     siteMetadata: {
         title: 'プログラミングヴンチョウ',
-        description: '趣味と実用をかねて作成したアプリケーション(ツール)やデモを公開するサイトです。'
+        description: '趣味と実用をかねて作成したアプリケーション(ツール)やデモを公開するサイトです。',
+        toolHost: 'http://localhost:8080',
+        demoHost: 'http://localhost:8080'
     },
     plugins: [
         {
@@ -17,7 +19,15 @@ module.exports = {
             }
         },
         {
-            resolve: `gatsby-plugin-google-gtag`,
+            resolve: 'gatsby-source-filesystem',
+            options: {
+                name: 'src',
+                path: `${__dirname}/src/`
+            }
+        },
+        'gatsby-transformer-remark',
+        {
+            resolve: 'gatsby-plugin-google-gtag',
             options: {
                 trackingIds: [
                     '<TRACKING-ID-HERE>'
