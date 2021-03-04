@@ -7,9 +7,9 @@
 module.exports = {
     siteMetadata: {
         title: 'プログラミングヴンチョウ',
-        description: '趣味と実用をかねて作成したアプリケーション(ツール)やデモを公開するサイトです。',
+        description: '一介のソフトウェアエンジニアが、主に、個人で作成したアプリケーション(ツール)を公開するサイトです。自身が開発で使いそうなツールを素直に作った感じです。実際、自分で様々な開発時に使用しています。',
         toolHost: 'http://localhost:8080',
-        demoHost: 'http://localhost:8080'
+        demoHost: 'http://localhost:8080',
     },
     plugins: [
         {

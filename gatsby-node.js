@@ -13,7 +13,9 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     }
 };
 
-
+const templateNameMapping = {
+    'index': 'index'
+};
 
 exports.createPages = async ({ graphql, actions }) => {
     const { createPage } = actions;
@@ -32,12 +34,15 @@ exports.createPages = async ({ graphql, actions }) => {
     `);
 
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-        const templateName = node.fields.slug.replace(/\//g, '');
+        const slug = node.fields.slug;
+        let templateKey = slug.replace(/\//g, '');
+        templateKey = !templateKey ? 'index' : templateKey;
+        const templateName = templateNameMapping[templateKey] || 'template';
         createPage({
-            path: node.fields.slug,
+            path: slug,
             component: path.resolve(`./src/templates/${templateName}.js`),
             context: {
-                slug: node.fields.slug
+                slug
             }
         });
     });
