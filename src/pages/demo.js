@@ -22,7 +22,7 @@ export default function Demo() {
             <Head/>
             <h1>Demo</h1>
             <div className={styles.recommendedBrowser}>
-                推奨ブラウザは、Google Chromeです。<br/>(Microsoft Edge, FireFoxでも動作可)
+                推奨ブラウザは、Google Chromeです。<br/>(Microsoft Edge, FireFox, Safariでも動作可)
             </div>
             <ul>
                 <ThumbNail
