@@ -33,6 +33,12 @@ module.exports = {
                     '<TRACKING-ID-HERE>'
                 ]
             }
-        }
+        },
+        {
+            resolve: 'gatsby-plugin-google-adsense',
+            options: {
+                publisherId: ''
+            },
+        },
     ]
 };
