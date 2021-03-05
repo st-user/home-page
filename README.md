@@ -1,6 +1,6 @@
 # home-page
 
-[ホームページ](https://tools.ajizablg.com/)用のプロジェクトです。
+[ホームページ](https://www.ajizablg.com/)用のプロジェクトです。
 
 Tools, Demoの各コンテンツは別プロジェクトとなっています。
 
