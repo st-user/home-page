@@ -27,6 +27,9 @@ export default function Tools() {
                 <ThumbNail
                     url={data.site.siteMetadata.toolHost + '/simple-video-capture'}
                     name="簡単動画キャプチャーツール"/>
+                <ThumbNail
+                    url={data.site.siteMetadata.toolHost + '/image-capture'}
+                    name="重ねる画面キャプチャーツール"/>
             </ul>
         </Layout>
     );
