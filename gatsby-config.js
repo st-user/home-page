@@ -7,7 +7,7 @@
 module.exports = {
     siteMetadata: {
         title: 'プログラミングヴンチョウ',
-        description: '一介のソフトウェアエンジニアが、主に、個人で作成したアプリケーション(ツール)を公開するサイトです。自身が開発で使いそうなツールを素直に作った感じです。実際、自分で様々な開発時に使用しています。',
+        description: 'アプリケーション(ツール)、デモを公開するサイトです。',
         toolHost: 'https://www.ajizablg.com/',
         demoHost: 'https://www.ajizablg.com/',
     },

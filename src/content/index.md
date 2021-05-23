@@ -1,12 +1,21 @@
 ---
 title: "ツールやデモのサイト"
-date: "2021/03/04"
+date: "2021/05/23"
 ---
 
-##Tools
+## Tools
 
-[Tools](/tools/)は、メインとなるアプリケーション（ツール）群です。定期的に機能の追加や改善をしていきます。
+[Tools](/tools/)は、メインとなるアプリケーション（ツール）群です。
 
-##Demo
+[製作者について](/about/)
 
-[Demo](/demo/)は、自身が興味を持ったテーマで製作したデモです。
+## Demo
+
+[Demo](/demo/)は、様々なデモです。
+
+## Source Codes
+
+ツール、デモ及び、当サイト以外の製作物
+
+ - [GitHub](https://github.com/st-user)
+ - [jsfiddle](https://jsfiddle.net/user/teh310/fiddles/)
